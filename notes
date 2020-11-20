@@ -1,0 +1,172 @@
+Table of content:
+
+Linux commands
+Version control and Git
+IDE
+OOP
+Java Basics
+Maven Basics
+Java Spring
+Java JUnit (Step Junior developer)
+Java Selenium (Step Automated tester)
+Java Hibernate
+ISTQB https://www.istqb.org/
+
+Linux commands
+You should be able to anwer:
+Why linux is essential
+What is terminal
+Difference between file1.txt, file2  .file3   .file4.txt  file.abc
+root 
+/
+pwd
+ls vs.  ls-lah vs.  ls -l -a -h
+cd  
+cd .   
+cd ..   
+cd /   
+cd  /dir1/dir2   
+cd ../../dir3/dir4    
+cd ./dir3   
+cd ./file.txt   
+cd “./my file”
+mv ./file1 ./dir3/file2
+rm ./file   
+rm ./directory1
+rm -rf  /dir1/dir2
+rmdir   ../../dir4
+touch file1  
+touch ./file1
+touch “my file”   
+mkdir directory1   
+mkdir “my directory”
+cat ./file1.txt
+nano ./file2
+man ls
+
+
+Version control and Git
+
+Why do companies need version control?
+Git https://git-scm.com/
+Svn (Subversion)
+Hg (Mercurial)
+Why is git so popular
+Examples of git implementations →  Github, Bitbucket, GitLab
+Understand git commands:
+git init
+git clone
+git pull
+git push
+git add .
+git commit -am “Some message”
+git checkout 
+git remote 
+git branch
+What is: master branch, feature branch, trunk, dev branch, 
+How to switch between branches
+How to find other commands?
+What is Readme.md
+What is .gitignore
+What is HEAD
+What is commit number
+
+IDE
+What means IDE
+What IDEs you know: Eclipse, IntelliJ, VisualStudio...VSCode, Atom
+
+
+OOP
+
+What is OOP (Object oriented programming)
+OOP basics
+encapsulation
+abstraction
+inheritance
+polymorphism
+Alternatives to OOP are:  
+functional programming → Javascript!
+structured programming
+imperative programming
+
+
+
+
+JAVA
+What is Java
+What is Java and why is so popular? 
+How to find java documentation
+What is JDK, OpenJDK, JRE
+Difference between MyClass1.java vs. MyClass.class
+What is compilation
+How to compile
+What is a main class and how it looks
+How to run a class
+What are packages
+what are default java packages
+How to import a class
+Access modifiers in Java: 
+https://www.javatpoint.com/access-modifiers
+private, default, protected, public
+What is “final”
+What are compile time errors and runtime errors
+How to throw an error
+What is the current version of java
+Java 8 features? ---> You will learn in future
+Lambda expressions
+Method references
+Functional interfaces
+Stream API
+Default methods
+Static methods in interface
+Java types primitives vs objects!
+int
+string
+boolean
+char
+enum
+What is class and how to make it
+How to make inner class
+What is interface
+What is abstract class
+How to extends a class or implement an interface
+How many classes you can extends, how many interfaces you can implement
+How to iterate over an Array loop with for, while, forEach
+
+
+
+
+Maven Basics
+
+What is maven
+Why we use maven
+What means mvn
+What is pom.xml
+Single module vs. multi module project
+What are maven phases and how to call them
+clean	-- Delete target directory.
+validate -- Validate if the project is correct.
+compile -- Compile source code, classes stored in target/classes.
+test -- Run tests.
+package -- Take the compiled code and package it in its distributable format, e.g. JAR, WAR.
+verify	-- Run any checks to verify the MVN package is valid and meets quality criteria.
+install	-- Install the package into the local repository.
+deploy	-- Copies the final MVN package to the remote repository.
+Maven repository: https://mvnrepository.com/
+mvn clean vs mvn package
+Cheat sheet: https://www.jrebel.com/blog/maven-cheat-sheet
+
+
+Java Spring
+
+What is Spring framework: w3c spring
+What is difference between framework and library
+Why do we use spring framework
+What is spring boot: w3c spring boot
+Official page of spring boot: official page spring boot!!!
+what are application.properties
+what are annotations
+How to create HelloWorld spring boot project
+
+
+
